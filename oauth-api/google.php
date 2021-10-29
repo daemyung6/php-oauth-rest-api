@@ -54,8 +54,6 @@ if(
             return $access_token;
         })($app, $userCode);
 
-        echo $access_token;
-
         
         //get userinfo
         $userInfo = (function($access_token) {
