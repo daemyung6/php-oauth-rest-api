@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^(.*)$ index.php?params=$1 [NC,QSA]
